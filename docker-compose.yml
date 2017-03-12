@@ -1,6 +1,0 @@
-wordpress:
-    images: wordpress
-    volumes:
-    - ./root/var/www/wordpress:/var/www/wordpress
-#    - ./root/etc/nginx/conf.d/wordpress.conf:/etc/nginx/conf.d/wordpress.conf
-    command: sh
