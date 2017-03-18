@@ -11,7 +11,7 @@ RUN mkdir -p /var/www/sites/wordpress && \
     
 RUN curl -L -O http://wordpress.org/wordpress-${VERSION}.tar.gz
     
-RUN tar -xzvf wordpress-${VERSION}.tar.gz -C /var/www/sites/wordpress && \
+RUN tar -xzvf wordpress-${VERSION}.tar.gz -C /var/www/sites && \
     rm wordpress-${VERSION}.tar.gz
 
 #RUN chown -R www-data:www-data /var/www/sites
